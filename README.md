@@ -10,18 +10,28 @@ This will probably not work without doing some work on it yourself since im too 
 
 CHANGELOG
 Change Log:
+
+
         [0.1 Alpha]
                 Added Binary Bot Killer.
+		
+		
         [0.2 Alpha]
                 Updated Passwords List.
                 Added Mirai Binarys into the bot killer.
                 Pid Process Killer.
                 Added Tftp/wget/lynx detection/infection
                 Closes port 22
+		
+		
         [0.3 Alpha]
                 Added GoAhead exploit scanner
+		
+		
         [0.4 Alpha]
                 Echo Dropper
+		
+		
         [0.5 Alpha] // Changed name to Vulkan
                 Added Alcatel exploit scanner
                 Added Gpon exploit scanner
